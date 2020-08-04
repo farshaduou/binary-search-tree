@@ -1,4 +1,4 @@
-# binary-search-tree
+# Binary Search Tree
 
 ```cpp
 
@@ -17,9 +17,10 @@ class Node {
 
 template <typename T>
 class Tree {
- public:
+ private:
   Node<T>* root;
-
+ 
+ public:
   Tree() { root = nullptr; }
 
  public:
